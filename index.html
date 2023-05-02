@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Login</title>
+
+    <!-- BoxIcons v2.1.2 -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Varela Round -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+
+<body>
+    <div class="login-box">
+        <h2>Bienvenido de vuelta</h2>
+        <p>Ingresa tus datos</p>
+        <form>
+            <div class="form-group">
+                <label for="email">
+                    Correo
+                </label>
+                <i class="bx bxs-user"></i>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Tu correo"
+                    required
+                >
+            </div>
+            <div class="form-group">
+                <label for="password">
+                    Contraseña
+                </label>
+                <i class="bx bxs-lock"></i>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Tu contraseña"
+                    required
+                >
+            </div>
+            <a class="forgot">
+                Olvidaste tu contraseña?
+            </a>
+            <input type="submit" value="Entrar">
+        </form>
+    </div>
+</body>
+</html>
